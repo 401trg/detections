@@ -3,7 +3,7 @@ Detections
 
 This repository contains all public indicators identified by 401trg during the course of our investigations. It also includes relevant yara rules and ids signatures to detect these indicators.
 
-Our public PGP Key can be found [here](https://keybase.io/401trg/pgp_keys.asc?fingerprint=1c3e9c9719d6480f1446e4f1812dc5f3)
+Our public PGP Key can be found [here](https://keybase.io/401trg/pgp_keys.asc?fingerprint=1c3e9c9719d6480f1446e4f1812dc5f3628952f9).
 
 # Reports
 
