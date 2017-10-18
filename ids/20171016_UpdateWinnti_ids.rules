@@ -1,51 +1,26 @@
-alert tcp $HOME_NET any -> any 80 (msg:"401TRG Possible Winnti-related Destination (strangelol .com)"; flow:established,to_server; content:"strangelol.com"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600045; rev:3;)
-
+alert http $HOME_NET any -> any any (msg:"401TRG Possible Winnti-related Destination (strangelol .com)"; flow:established,to_server; content:"strangelol.com"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600045; rev:3;)
 alert udp $HOME_NET any -> any 53 (msg:"401TRG Possible Winnti-related DNS Lookup (strangelol .com)"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|0a|strangelol|03|com|00|"; nocase; distance:0; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600044; rev:3;)
-
-alert tcp $HOME_NET any -> any 80 (msg:"401TRG Possible Winnti-related Destination (ssrsec .com)"; flow:established,to_server; content:"ssrsec.com"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600043; rev:3;)
-
+alert http $HOME_NET any -> any any (msg:"401TRG Possible Winnti-related Destination (ssrsec .com)"; flow:established,to_server; content:"ssrsec.com"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600043; rev:3;)
 alert udp $HOME_NET any -> any 53 (msg:"401TRG Possible Winnti-related DNS Lookup (ssrsec .com)"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|06|ssrsec|03|com|00|"; nocase; distance:0; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600042; rev:3;)
-
-alert tcp $HOME_NET any -> any 80 (msg:"401TRG Possible Winnti-related Destination (sqlmapff .com)"; flow:established,to_server; content:"sqlmapff.com"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600041; rev:3;)
-
+alert http $HOME_NET any -> any any (msg:"401TRG Possible Winnti-related Destination (sqlmapff .com)"; flow:established,to_server; content:"sqlmapff.com"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600041; rev:3;)
 alert udp $HOME_NET any -> any 53 (msg:"401TRG Possible Winnti-related DNS Lookup (sqlmapff .com)"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|08|sqlmapff|03|com|00|"; nocase; distance:0; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600040; rev:3;)
-
-alert tcp $HOME_NET any -> any 80 (msg:"401TRG Possible Winnti-related Destination (outerlol .com)"; flow:established,to_server; content:"outerlol.com"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600039; rev:3;)
-
+alert http $HOME_NET any -> any any (msg:"401TRG Possible Winnti-related Destination (outerlol .com)"; flow:established,to_server; content:"outerlol.com"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600039; rev:3;)
 alert udp $HOME_NET any -> any 53 (msg:"401TRG Possible Winnti-related DNS Lookup (outerlol .com)"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|08|outerlol|03|com|00|"; nocase; distance:0; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600038; rev:3;)
-
-alert tcp $HOME_NET any -> any 80 (msg:"401TRG Possible Winnti-related Destination (microsoftsec .com)"; flow:established,to_server; content:"microsoftsec.com"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600037; rev:3;)
-
+alert http $HOME_NET any -> any any (msg:"401TRG Possible Winnti-related Destination (microsoftsec .com)"; flow:established,to_server; content:"microsoftsec.com"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600037; rev:3;)
 alert udp $HOME_NET any -> any 53 (msg:"401TRG Possible Winnti-related DNS Lookup (microsoftsec .com)"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|0c|microsoftsec|03|com|00|"; nocase; distance:0; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600036; rev:3;)
-
-alert tcp $HOME_NET any -> any 80 (msg:"401TRG Possible Winnti-related Destination (martianlol .com)"; flow:established,to_server; content:"martianlol.com"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600035; rev:3;)
-
+alert http $HOME_NET any -> any any (msg:"401TRG Possible Winnti-related Destination (martianlol .com)"; flow:established,to_server; content:"martianlol.com"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600035; rev:3;)
 alert udp $HOME_NET any -> any 53 (msg:"401TRG Possible Winnti-related DNS Lookup (martianlol .com)"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|0a|martianlol|03|com|00|"; nocase; distance:0; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600034; rev:3;)
-
-alert tcp $HOME_NET any -> any 80 (msg:"401TRG Possible Winnti-related Destination (dnslog .mobi)"; flow:established,to_server; content:"dnslog.mobi"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600033; rev:3;)
-
+alert http $HOME_NET any -> any any (msg:"401TRG Possible Winnti-related Destination (dnslog .mobi)"; flow:established,to_server; content:"dnslog.mobi"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600033; rev:3;)
 alert udp $HOME_NET any -> any 53 (msg:"401TRG Possible Winnti-related DNS Lookup (dnslog .mobi)"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|06|dnslog|04|mobi|00|"; nocase; distance:0; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600032; rev:3;)
-
-alert tcp $HOME_NET any -> any 80 (msg:"401TRG Possible Winnti-related Destination (alienlol .com)"; flow:established,to_server; content:"alienlol.com"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600031; rev:3;)
-
+alert http $HOME_NET any -> any any (msg:"401TRG Possible Winnti-related Destination (alienlol .com)"; flow:established,to_server; content:"alienlol.com"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600031; rev:3;)
 alert udp $HOME_NET any -> any 53 (msg:"401TRG Possible Winnti-related DNS Lookup (alienlol .com)"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|09|alienlol|03|com|00|"; nocase; distance:0; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600030; rev:3;)
-
 alert udp $HOME_NET any -> any 53 (msg:"401TRG Possible Winnti-related DNS Lookup (securitytactics .com)"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|0f|securitytactics|03|com|00|"; nocase; distance:0; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600029; rev:3;)
-
 alert udp $HOME_NET any -> any 53 (msg:"401TRG Possible Winnti-related DNS Lookup (yoyakuweb .technology)"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|09|yoyakuweb|0a|technology|00|"; nocase; distance:0; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600028; rev:3;)
-
 alert udp $HOME_NET any -> any 53 (msg:"401TRG Possible Winnti-related DNS Lookup (exoticlol .com)"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|09|exoticlol|03|com|00|"; nocase; distance:0; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600027; rev:3;)
-
 alert udp $HOME_NET any -> any 53 (msg:"401TRG Possible Winnti-related DNS Lookup (google-statics .com)"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|0e|google-statics|03|com|00|"; nocase; distance:0; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600026; rev:3;)
-
 alert udp $HOME_NET any -> any 53 (msg:"401TRG Possible Winnti-related DNS Lookup (google-searching .com)"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|10|google-searching|03|com|00|"; nocase; distance:0; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600025; rev:3;)
-
 alert udp $HOME_NET any -> any 53 (msg:"401TRG Possible Winnti-related DNS Lookup (awsstatics .com)"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|0a|awsstatics|03|com|00|"; nocase; distance:0; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600024; rev:3;)
-
 alert udp $HOME_NET any -> any 53 (msg:"401TRG Possible Winnti-related DNS Lookup (immigrantlol .com)"; content:"|01 00 00 01 00 00 00 00 00 00|"; depth:10; offset:2; content:"|0c|immigrantlol|03|com|00|"; nocase; distance:0; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600023; rev:3;)
-
-alert tcp $HOME_NET any -> any 80 (msg:"401TRG Possible Winnti-related Destination (google-searching .com)"; flow:established,to_server; content:"google-searching.com"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600022; rev:3;)
-
-alert tcp $HOME_NET any -> any 80 (msg:"401TRG Possible Winnti-related Destination (awsstatics .com)"; flow:established,to_server; content:"awsstatics.com"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600021; rev:3;)
-
-alert tcp $HOME_NET any -> any 80 (msg:"401TRG Possible Winnti-related Destination (immigrantlol .com)"; flow:established,to_server; content:"immigrantlol.com"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600020; rev:3;)
+alert http $HOME_NET any -> any any (msg:"401TRG Possible Winnti-related Destination (google-searching .com)"; flow:established,to_server; content:"google-searching.com"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600022; rev:3;)
+alert http $HOME_NET any -> any any (msg:"401TRG Possible Winnti-related Destination (awsstatics .com)"; flow:established,to_server; content:"awsstatics.com"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600021; rev:3;)
+alert http $HOME_NET any -> any any (msg:"401TRG Possible Winnti-related Destination (immigrantlol .com)"; flow:established,to_server; content:"immigrantlol.com"; http_header; fast_pattern; reference:url,https://401trg.pw/an-update-on-winnti/; classtype:trojan-activity; sid:600020; rev:3;)
