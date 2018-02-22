@@ -1,0 +1,7 @@
+"Indicator","Type","Description",
+"37ecaa468199aa4e889f667dbf4443c4","Satori mips.satori"
+"09719d82730f3f8ce12ccbd75dd93845","Satori mipsel.satori"
+"9fc1370640c0089702e9af9114754ad4","Satori arm7.satori"
+"d7e12cace51941af2fdc7acb4891d3c2","Satori arm.satori"
+"af70854a74aed2fe28dc81b2549ca679","Satori arm64.satori"
+"185.62.188.88","IP","Satori Botnet C2"
