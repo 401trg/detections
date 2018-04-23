@@ -7,7 +7,7 @@ Our public PGP Key can be found [here](https://keybase.io/401trg/pgp_keys.asc?fi
 
 # Reports
 
-| Directory                                                                                                         | Link                                                                                                                                                                                                | Published    |
+| Directory | Link | Published    |
 |-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | [20180222_Analysis_of_Active_Satori_Botnet_Infections_indicators](https://github.com/401trg/detections/blob/master/ioc/20180222_Satori_Botnet_RCE_indicators.csv) <br> [20180222_Analysis_of_Active_Satori_Botnet_Infections__ids](https://github.com/401trg/detections/blob/master/ids/20180222_Satori_Botnet_RCE.rules)  | [Analysis of Active Satori Botnet Infections](https://401trg.pw/analysis-of-active-satori-botnet-infections/) | Feb 22, 2018 |
 | [20171220_Introduction_to_SMB_pcaps](https://github.com/401trg/detections/tree/master/pcaps) <br> [20171220_Introduction_to_SMB_pdf](https://github.com/401trg/detections/blob/master/pdfs/20171220_An-Introduction-to-SMB-for-Network-Security-Analysts.pdf) | [An Introduction to SMB for Network Security Analysts](https://401trg.pw/an-introduction-to-smb-for-network-security-analysts/) | Dec 20, 2017 |
