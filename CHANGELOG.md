@@ -5,17 +5,18 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-### NEW POST - 2018-04-24
+### NEW POST - 2018-04-26
 
-## [1.0.0] - 2018-04-23
+## [1.0.0] - 2018-04-24
 ### Added
 - Changelog to track post and changes to unified format
 - Unifed format for machine readable IOCs in all IOC files
 - README description of detections repo
 - README description of unified IOC format
 - Previous post added to Reports section of README that have no IOC, IDS, or other github docs
-- Python script to ingest IOC files
-- Python script to ingest IDS rules
+- Apache LICENSE descriptor
+- indicator_ingest.py to read in all IOC as a python dict()
+- ids_rules_ingest.py to read in all IDS rules as a python list()
 
 ### Changed
 - Formating of IOCs to unified format addressed in README.md

@@ -1,0 +1,6 @@
+https://raw.githubusercontent.com/401trg/detections/master/ids/20171010_TurlaWateringHole_ids.rules
+https://raw.githubusercontent.com/401trg/detections/master/ids/20171016_UpdateWinnti_ids.rules
+https://raw.githubusercontent.com/401trg/detections/master/ids/20171026_IRCbot_ids.rules
+https://raw.githubusercontent.com/401trg/detections/master/ids/20171026_LargeScaleIRC_ids.rules
+https://raw.githubusercontent.com/401trg/detections/master/ids/20171101_ExposingPhishing_ids.rules
+https://raw.githubusercontent.com/401trg/detections/master/ids/20180222_Satori_Botnet_RCE.rules

@@ -1,0 +1,6 @@
+https://raw.githubusercontent.com/401trg/detections/master/ioc/20170711_WinntiEvolution_indicators.csv
+https://raw.githubusercontent.com/401trg/detections/master/ioc/20171010_TurlaWateringHole_indicators.csv
+https://raw.githubusercontent.com/401trg/detections/master/ioc/20171016_UpdateWinnti_indicators.csv
+https://raw.githubusercontent.com/401trg/detections/master/ioc/20171026_LargeScaleIRC_indicators.csv
+https://raw.githubusercontent.com/401trg/detections/master/ioc/20171101_ExposingPhishing_indicators.csv
+https://raw.githubusercontent.com/401trg/detections/master/ioc/20180222_Satori_Botnet_RCE_indicators.csv
