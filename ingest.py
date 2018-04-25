@@ -13,6 +13,8 @@ __status__ = "Prototype"
 
 IOC_URL_LIST_URL = 'https://raw.githubusercontent.com/401trg/detections/master/ioc_urls.txt'
 IDS_RULES_URL_LIST_URL = 'https://raw.githubusercontent.com/401trg/detections/master/ids_rules_urls.txt'
+FILE_BL_URL = 'https://raw.githubusercontent.com/401trg/detections/master/blacklist/file_bl.csv'
+CERT_BL_URL = 'https://raw.githubusercontent.com/401trg/detections/master/blacklist/cert_bl.csv'
 
 
 def get_urls_list(url_list_url):
@@ -55,12 +57,32 @@ def get_ids_rules_list(ids_rules_urls):
     return ids_rules_list
 
 
-def get_file_bl():
-    pass
+def get_file_bl(file_bl_url):
+    """ Gets file ioc from blacklist
+    :param file_bl_url: url for file blacklist
+    :return: list of file IOCs in Key:Value format
+    """
+
+    file_ioc_list = list()
+    file_ioc_request_data = requests.get(file_bl_url, timeout=1)
+    tmp_dict = csv.DictReader(file_ioc_request_data.text.splitlines())
+    for ioc in tmp_dict:
+        file_ioc_list.append(json.dumps(ioc)) 
+    return file_ioc_list
 
 
-def get_cert_bl():
-    pass
+def get_cert_bl(cert_bl_url):
+    """ Gets cert ioc from blacklist
+    :param file_bl_url: url for file blacklist
+    :return: list of file IOCs in Key:Value format
+    """
+
+    cert_ioc_list = list()
+    cert_ioc_request_data = requests.get(cert_bl_url, timeout=1)
+    tmp_dict = csv.DictReader(cert_ioc_request_data.text.splitlines())
+    for ioc in tmp_dict:
+        cert_ioc_list.append(json.dumps(ioc)) 
+    return cert_ioc_list
 
 
 if __name__ == "__main__":
@@ -76,4 +98,12 @@ if __name__ == "__main__":
     #for ids_rule in ids_rules_list:
     #    print(ids_rule)
 
-    
+    # FILE BL Example
+    file_ioc_list = get_file_bl(FILE_BL_URL)
+    #for file_ioc in file_ioc_list:
+    #    print(file_ioc)
+
+    # CERT BL Example
+    cert_ioc_list = get_cert_bl(CERT_BL_URL)
+    #for cert_ioc in cert_ioc_list:
+    #    print(cert_ioc)
