@@ -1,1 +1,4 @@
 .DS_Store
+.idea/detections.iml
+.idea/modules.xml
+.idea/workspace.xml

@@ -15,8 +15,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - README description of unified IOC format
 - Previous post added to Reports section of README that have no IOC, IDS, or other github docs
 - Apache LICENSE descriptor
-- indicator_ingest.py to read in all IOC as a python dict()
-- ids_rules_ingest.py to read in all IDS rules as a python list()
+- ingest.py to read in all IOC as a python dict()
 
 ### Changed
 - Formating of IOCs to unified format addressed in README.md
