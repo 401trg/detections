@@ -73,8 +73,8 @@ def get_file_bl(file_bl_url):
 
 def get_cert_bl(cert_bl_url):
     """ Gets cert ioc from blacklist
-    :param file_bl_url: url for file blacklist
-    :return: list of file IOCs in Key:Value format
+    :param cert_bl_url: url for cert blacklist
+    :return: list of cert IOCs in Key:Value format
     """
 
     cert_ioc_list = list()
