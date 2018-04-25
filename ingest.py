@@ -55,6 +55,14 @@ def get_ids_rules_list(ids_rules_urls):
     return ids_rules_list
 
 
+def get_file_bl():
+    pass
+
+
+def get_cert_bl():
+    pass
+
+
 if __name__ == "__main__":
     # IOC Example
     ioc_urls = get_urls_list(IOC_URL_LIST_URL)
@@ -67,3 +75,5 @@ if __name__ == "__main__":
     ids_rules_list = get_ids_rules_list(ids_rules_urls)
     #for ids_rule in ids_rules_list:
     #    print(ids_rule)
+
+    
