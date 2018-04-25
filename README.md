@@ -7,7 +7,7 @@ Our public PGP Key can be found [here](https://keybase.io/401trg/pgp_keys.asc?fi
 
 # Reports
 
-| Published | Post | IOC/IDS/PCAP/PDF |
+| Published | Post | IOC : IDS : PCAP : PDF |
 |-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | Apr 02, 2018 | [Building a Data Lake for Threat Research](https://401trg.pw/building-a-data-lake-for-threat-research/) | |
 | Feb 22, 2018 | [Analysis of Active Satori Botnet Infections](https://401trg.pw/analysis-of-active-satori-botnet-infections/) | [20180222_Analysis_of_Active_Satori_Botnet_Infections_indicators](https://github.com/401trg/detections/blob/master/ioc/20180222_Satori_Botnet_RCE_indicators.csv) <br> [20180222_Analysis_of_Active_Satori_Botnet_Infections__ids](https://github.com/401trg/detections/blob/master/ids/20180222_Satori_Botnet_RCE.rules) |
