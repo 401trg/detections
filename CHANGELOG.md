@@ -11,12 +11,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - Changelog to track post and changes to unified format
 - Unifed format for machine readable IOCs in all IOC files
+- Blacklist for cert and file type indicators
 - README description of detections repo
 - README description of unified IOC format
 - Previous post added to Reports section of README that have no IOC, IDS, or other github docs
 - Apache LICENSE descriptor
 - ingest.py to read in all IOC/IDS/Blacklist as a python list()
-- add blacklist for cert and file type indicators
 
 ### Changed
 - Formating of IOCs to unified format addressed in README.md
