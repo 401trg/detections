@@ -23,19 +23,19 @@ Our public PGP Key can be found [here](https://keybase.io/401trg/pgp_keys.asc?fi
 | Jul 11, 2017 | [Winnti (LEAD/APT17) Evolution - Going Open Source](https://401trg.pw/winnti-evolution-going-open-source/) | [20170711_WinntiEvolution_indicators](https://github.com/401trg/detections/blob/master/ioc/20170711_WinntiEvolution_indicators.csv) | 
 
 # IDS
-This directory contains IDS signatures to detect these indicators located in the ioc directory. These signatures are compatible with Suricata v4.0.4.
+This directory contains IDS signatures to detect the indicators located in the IOC directory. These signatures are compatible with Suricata v4.0.4.
 
 # IOC
-This directory contains IOCs from post at [401trg.pw](https://401trg.pw). The csv files follow the unified format described below. These indicators are not defanged and are considered malicious.
+This directory contains IOCs from posts at [401trg.pw](https://401trg.pw). The csv files follow the unified format described below. These indicators are not defanged and should be considered malicious.
 
 # PCAPS
-This directory contains example pcaps for knowledge post from [401trg.pw](https://401trg.pw).
+This directory contains example pcaps from "knowledge" posts at [401trg.pw](https://401trg.pw).
 
 # PDF
-This directory contains pdfs of 401TRG long-form post.
+This directory contains PDFs of 401TRG long-form posts.
 
 # Unified Format
-All IOC files are csv and follow the following format:
+All IOC files are in CSV and have the following format:
 `"Indicator","Type","Description","Reference"`
 
 There are several types of indicators:
