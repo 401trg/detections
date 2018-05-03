@@ -1,69 +1,69 @@
-"Indicator","Type","Description","Reference"
-"512509787e4da7aaf71b89d25698a9e9d43501fd","CERT SHA1","","Reference_URL"
-"bd3abf19f065d102503e9186c152e529d3e33143","CERT SHA1","","Reference_URL"
-"df7826303b98004afd1102f597f6c7b067086a00","CERT SHA1","","Reference_URL"
-"1217cbb57fb26bd52d976f34571bd6c6514265e9","CERT SHA1","","Reference_URL"
-"e6a3b45b062d509b3382282d196efe97d5956ccb","CERT SHA1","","Reference_URL"
-"8e400380e376b9fb03612967940bb8e07175ab6a","CERT SHA1","","Reference_URL"
-"263babc25c177e0e6bd87c687bad8316240f971e","CERT SHA1","","Reference_URL"
-"58e1a9c1dae311fabdfa065955216a46eecb5816","CERT SHA1","","Reference_URL"
-"bae30b15dbb1544cf194d076b75b7bb9e3d6b760","CERT SHA1","","Reference_URL"
-"0e34141846e7423d37f20dc0ab06c9bbd843dc24","CERT SHA1","","Reference_URL"
-"23d57a493a5bfe1801b9d6e0894555242661a27b","CERT SHA1","","Reference_URL"
-"8e11362a487a744fd21682cd86ad053e8bd5b9ce","CERT SHA1","","Reference_URL"
-"_phishing-framework_session","COOKIE","","Reference_URL"
-"11116.intra.applestunes.com","DOMAIN","","Reference_URL"
-"24287.intra.applestunes.com","DOMAIN","","Reference_URL"
-"26707.intra.applestunes.com","DOMAIN","","Reference_URL"
-"33604.intra.applestunes.com","DOMAIN","","Reference_URL"
-"account.microsoftssonline.com","DOMAIN","","Reference_URL"
-"account.micrrosoftsonline.com","DOMAIN","","Reference_URL"
-"account.outlook-s.com","DOMAIN","","Reference_URL"
-"accounts.gmail.sa.com","DOMAIN","","Reference_URL"
-"accounts.google-acc.com","DOMAIN","","Reference_URL"
-"accounts.google-caches.com","DOMAIN","","Reference_URL"
-"alienlol.com","DOMAIN","","Reference_URL"
-"app.appaffect.com","DOMAIN","","Reference_URL"
-"appaffect.com","DOMAIN","","Reference_URL"
-"applestunes.com","DOMAIN","","Reference_URL"
-"applevswin.com","DOMAIN","","Reference_URL"
-"asmc.best","DOMAIN","","Reference_URL"
-"atliassian.com","DOMAIN","","Reference_URL"
-"awsprocduction.immigrantlol.com","DOMAIN","","Reference_URL"
-"awsstatics.com","DOMAIN","","Reference_URL"
-"css.google-statics.com","DOMAIN","","Reference_URL"
-"dnslog.mobi","DOMAIN","","Reference_URL"
-"eggagent.info","DOMAIN","","Reference_URL"
-"exoticlol.com","DOMAIN","","Reference_URL"
-"ftp.appaffect.com","DOMAIN","","Reference_URL"
-"ftp.eggagent.info","DOMAIN","","Reference_URL"
-"ftp.ssrsec.com","DOMAIN","","Reference_URL"
-"ftp.winter.tokyo","DOMAIN","","Reference_URL"
-"gmail.sa.com","DOMAIN","","Reference_URL"
-"google-acc.com","DOMAIN","","Reference_URL"
-"haveip2015@gmail.com","EMAIL","","Reference_URL"
-"iisexit@gmail.com","EMAIL","","Reference_URL"
-"b676ec7b387de8795833b691a367d3d1","FILE MD5","","Reference_URL"
-"e798cfe49e6afb61f58d79a53f06d785","FILE MD5","","Reference_URL"
-"371acda8d719426b6a8867767260b9ce","FILE MD5","","Reference_URL"
-"106.184.5.252","IP","","Reference_URL"
-"106.185.31.128","IP","","Reference_URL"
-"106.186.122.96","IP","","Reference_URL"
-"13.115.93.210","IP","","Reference_URL"
-"133.242.145.137","IP","","Reference_URL"
-"139.162.106.19","IP","","Reference_URL"
-"139.162.119.48","IP","","Reference_URL"
-"139.162.17.161","IP","","Reference_URL"
-"139.162.79.40","IP","","Reference_URL"
-"139.162.95.39","IP","","Reference_URL"
-"159.65.71.30","IP","","Reference_URL"
-"172.104.101.131","IP","","Reference_URL"
-"172.104.115.124","IP","","Reference_URL"
-"198.199.78.207","IP","","Reference_URL"
-"207.126.114.154","IP","","Reference_URL"
-"45.32.18.187","IP","","Reference_URL"
-"45.77.179.192","IP","","Reference_URL"
-"52.199.202.13","IP","","Reference_URL"
-"61.78.62.102","IP","","Reference_URL"
-"61.78.62.21","IP","","Reference_URL"
-"61.78.62.61","IP","","Reference_URL"
+Indicator,Type,Description,Reference
+512509787e4da7aaf71b89d25698a9e9d43501fd,CERT SHA1,,http://401trg.pw/burning-umbrella/
+bd3abf19f065d102503e9186c152e529d3e33143,CERT SHA1,,http://401trg.pw/burning-umbrella/
+df7826303b98004afd1102f597f6c7b067086a00,CERT SHA1,,http://401trg.pw/burning-umbrella/
+1217cbb57fb26bd52d976f34571bd6c6514265e9,CERT SHA1,,http://401trg.pw/burning-umbrella/
+e6a3b45b062d509b3382282d196efe97d5956ccb,CERT SHA1,,http://401trg.pw/burning-umbrella/
+8e400380e376b9fb03612967940bb8e07175ab6a,CERT SHA1,,http://401trg.pw/burning-umbrella/
+263babc25c177e0e6bd87c687bad8316240f971e,CERT SHA1,,http://401trg.pw/burning-umbrella/
+58e1a9c1dae311fabdfa065955216a46eecb5816,CERT SHA1,,http://401trg.pw/burning-umbrella/
+bae30b15dbb1544cf194d076b75b7bb9e3d6b760,CERT SHA1,,http://401trg.pw/burning-umbrella/
+0e34141846e7423d37f20dc0ab06c9bbd843dc24,CERT SHA1,,http://401trg.pw/burning-umbrella/
+23d57a493a5bfe1801b9d6e0894555242661a27b,CERT SHA1,,http://401trg.pw/burning-umbrella/
+8e11362a487a744fd21682cd86ad053e8bd5b9ce,CERT SHA1,,http://401trg.pw/burning-umbrella/
+_phishing-framework_session,COOKIE,,http://401trg.pw/burning-umbrella/
+11116.intra.applestunes.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+24287.intra.applestunes.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+26707.intra.applestunes.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+33604.intra.applestunes.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+account.microsoftssonline.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+account.micrrosoftsonline.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+account.outlook-s.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+accounts.gmail.sa.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+accounts.google-acc.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+accounts.google-caches.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+alienlol.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+app.appaffect.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+appaffect.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+applestunes.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+applevswin.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+asmc.best,DOMAIN,,http://401trg.pw/burning-umbrella/
+atliassian.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+awsprocduction.immigrantlol.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+awsstatics.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+css.google-statics.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+dnslog.mobi,DOMAIN,,http://401trg.pw/burning-umbrella/
+eggagent.info,DOMAIN,,http://401trg.pw/burning-umbrella/
+exoticlol.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+ftp.appaffect.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+ftp.eggagent.info,DOMAIN,,http://401trg.pw/burning-umbrella/
+ftp.ssrsec.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+ftp.winter.tokyo,DOMAIN,,http://401trg.pw/burning-umbrella/
+gmail.sa.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+google-acc.com,DOMAIN,,http://401trg.pw/burning-umbrella/
+haveip2015@gmail.com,EMAIL,,http://401trg.pw/burning-umbrella/
+iisexit@gmail.com,EMAIL,,http://401trg.pw/burning-umbrella/
+b676ec7b387de8795833b691a367d3d1,FILE MD5,,http://401trg.pw/burning-umbrella/
+e798cfe49e6afb61f58d79a53f06d785,FILE MD5,,http://401trg.pw/burning-umbrella/
+371acda8d719426b6a8867767260b9ce,FILE MD5,,http://401trg.pw/burning-umbrella/
+106.184.5.252,IP,,http://401trg.pw/burning-umbrella/
+106.185.31.128,IP,,http://401trg.pw/burning-umbrella/
+106.186.122.96,IP,,http://401trg.pw/burning-umbrella/
+13.115.93.210,IP,,http://401trg.pw/burning-umbrella/
+133.242.145.137,IP,,http://401trg.pw/burning-umbrella/
+139.162.106.19,IP,,http://401trg.pw/burning-umbrella/
+139.162.119.48,IP,,http://401trg.pw/burning-umbrella/
+139.162.17.161,IP,,http://401trg.pw/burning-umbrella/
+139.162.79.40,IP,,http://401trg.pw/burning-umbrella/
+139.162.95.39,IP,,http://401trg.pw/burning-umbrella/
+159.65.71.30,IP,,http://401trg.pw/burning-umbrella/
+172.104.101.131,IP,,http://401trg.pw/burning-umbrella/
+172.104.115.124,IP,,http://401trg.pw/burning-umbrella/
+198.199.78.207,IP,,http://401trg.pw/burning-umbrella/
+207.126.114.154,IP,,http://401trg.pw/burning-umbrella/
+45.32.18.187,IP,,http://401trg.pw/burning-umbrella/
+45.77.179.192,IP,,http://401trg.pw/burning-umbrella/
+52.199.202.13,IP,,http://401trg.pw/burning-umbrella/
+61.78.62.102,IP,,http://401trg.pw/burning-umbrella/
+61.78.62.21,IP,,http://401trg.pw/burning-umbrella/
+61.78.62.61,IP,,http://401trg.pw/burning-umbrella/
