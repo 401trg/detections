@@ -37,47 +37,23 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - 20180222_Analysis_of_Active_Satori_Botnet_Infections_indicators
 - 20180222_Analysis_of_Active_Satori_Botnet_Infections__ids
-
-### Changed
-- README.md : [Analysis of Active Satori Botnet Infections](https://401trg.pw/analysis-of-active-satori-botnet-infections)
-
-## [0.5.0] - 2017-12-20
-### Added
-- 20171220_Introduction_to_SMB_pcaps and 20171220_Introduction_to_SMB_pdf
-
-### Changed
-- README.md : [An Introduction to SMB for Network Security Analysts](https://401trg.pw/an-introduction-to-smb-for-network-security-analysts)
-
-## [0.4.0] - 2017-11-01
-### Added
+- 20171220_Introduction_to_SMB_pcaps
+- 20171220_Introduction_to_SMB_pdf
 - 20171101_ExposingPhishing_indicators
 - 20171101_ExposingPhishing_ids
-
-### Changed
-- README.md : [Exposing a Phishing Kit](https://401trg.pw/exposing-a-phishing-kit)
-
-## [0.3.0] - 2017-10-26
-### Added
 - 20171026_LargeScaleIRC_indicators
 - 20171026_LargeScaleIRC_ids
-
-### Changed
-- README.md : [Large Scale IRCbot Infection Attempts](https://401trg.pw/large_scale_ircbot_infection_attempts)
-
-## [0.2.0] - 2017-10-16
-### Added
 - 20171016_UpdateWinnti_indicators
 - 20171016_UpdateWinnti_ids
-
-### Changed
-- README.md : [An Update on Winnti](https://401trg.pw/an-update-on-winnti)
-
-## [0.1.0] - 2017-10-10
-### Added
 - 20171010_TurlaWateringHole_indicators
 - 20171010_TurlaWateringHole_ids
 - 20170711_WinntiEvolution_indicators
 
 ### Changed
+- README.md : [Analysis of Active Satori Botnet Infections](https://401trg.pw/analysis-of-active-satori-botnet-infections)
+- README.md : [An Introduction to SMB for Network Security Analysts](https://401trg.pw/an-introduction-to-smb-for-network-security-analysts)
+- README.md : [Exposing a Phishing Kit](https://401trg.pw/exposing-a-phishing-kit)
+- README.md : [Large Scale IRCbot Infection Attempts](https://401trg.pw/large_scale_ircbot_infection_attempts)
+- README.md : [An Update on Winnti](https://401trg.pw/an-update-on-winnti)
 - README.md : [Turla Watering Hole Campaigns 2016/2017](https://401trg.pw/turla-watering-hole-campaigns-2016-2017)
 - README.md : [Winnti (LEAD/APT17) Evolution - Going Open Source](https://401trg.pw/winnti-evolution-going-open-source)
