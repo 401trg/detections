@@ -1,7 +1,7 @@
-"Indicator","Type","Description","Reference"
-"37ecaa468199aa4e889f667dbf4443c4","FILE MD5","Satori mips.satori","https://401trg.pw/analysis-of-active-satori-botnet-infections"
-"09719d82730f3f8ce12ccbd75dd93845","FILE MD5","Satori mipsel.satori","https://401trg.pw/analysis-of-active-satori-botnet-infections"
-"9fc1370640c0089702e9af9114754ad4","FILE MD5","Satori arm7.satori","https://401trg.pw/analysis-of-active-satori-botnet-infections"
-"d7e12cace51941af2fdc7acb4891d3c2","FILE MD5","Satori arm.satori","https://401trg.pw/analysis-of-active-satori-botnet-infections"
-"af70854a74aed2fe28dc81b2549ca679","FILE MD5","Satori arm64.satori","https://401trg.pw/analysis-of-active-satori-botnet-infections"
-"185.62.188.88","IP","Satori Botnet C2","https://401trg.pw/analysis-of-active-satori-botnet-infections"
+Indicator,Type,Description,Reference
+37ecaa468199aa4e889f667dbf4443c4,FILE MD5,Satori mips.satori,https://401trg.pw/analysis-of-active-satori-botnet-infections
+09719d82730f3f8ce12ccbd75dd93845,FILE MD5,Satori mipsel.satori,https://401trg.pw/analysis-of-active-satori-botnet-infections
+9fc1370640c0089702e9af9114754ad4,FILE MD5,Satori arm7.satori,https://401trg.pw/analysis-of-active-satori-botnet-infections
+d7e12cace51941af2fdc7acb4891d3c2,FILE MD5,Satori arm.satori,https://401trg.pw/analysis-of-active-satori-botnet-infections
+af70854a74aed2fe28dc81b2549ca679,FILE MD5,Satori arm64.satori,https://401trg.pw/analysis-of-active-satori-botnet-infections
+185.62.188.88,IP,Satori Botnet C2,https://401trg.pw/analysis-of-active-satori-botnet-infections
