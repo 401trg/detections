@@ -52,8 +52,8 @@ There are several types of indicators:
 
 Example:
 ```
-"Indicator","Type","Description","Reference"
-"asdf.asdf.com","DOMAIN","This is a malicious domain","https://401trg.pw/this-post-does-not-exist"
+Indicator,Type,Description,Reference
+asdf.asdf.com,DOMAIN,This is a malicious domain,https://401trg.pw/this-post-does-not-exist
 ```
 
 The description field is left blank when there is no context to add to the indicator. The reference field will contain a link to the 401TRG post that disclosed the indicator. 
