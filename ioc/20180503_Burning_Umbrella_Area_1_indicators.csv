@@ -1,69 +1,124 @@
 Indicator,Type,Description,Reference
-512509787e4da7aaf71b89d25698a9e9d43501fd,CERT SHA1,,http://401trg.pw/burning-umbrella/
-bd3abf19f065d102503e9186c152e529d3e33143,CERT SHA1,,http://401trg.pw/burning-umbrella/
-df7826303b98004afd1102f597f6c7b067086a00,CERT SHA1,,http://401trg.pw/burning-umbrella/
-1217cbb57fb26bd52d976f34571bd6c6514265e9,CERT SHA1,,http://401trg.pw/burning-umbrella/
-e6a3b45b062d509b3382282d196efe97d5956ccb,CERT SHA1,,http://401trg.pw/burning-umbrella/
-8e400380e376b9fb03612967940bb8e07175ab6a,CERT SHA1,,http://401trg.pw/burning-umbrella/
-263babc25c177e0e6bd87c687bad8316240f971e,CERT SHA1,,http://401trg.pw/burning-umbrella/
-58e1a9c1dae311fabdfa065955216a46eecb5816,CERT SHA1,,http://401trg.pw/burning-umbrella/
-bae30b15dbb1544cf194d076b75b7bb9e3d6b760,CERT SHA1,,http://401trg.pw/burning-umbrella/
-0e34141846e7423d37f20dc0ab06c9bbd843dc24,CERT SHA1,,http://401trg.pw/burning-umbrella/
-23d57a493a5bfe1801b9d6e0894555242661a27b,CERT SHA1,,http://401trg.pw/burning-umbrella/
-8e11362a487a744fd21682cd86ad053e8bd5b9ce,CERT SHA1,,http://401trg.pw/burning-umbrella/
-_phishing-framework_session,COOKIE,,http://401trg.pw/burning-umbrella/
-11116.intra.applestunes.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-24287.intra.applestunes.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-26707.intra.applestunes.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-33604.intra.applestunes.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-account.microsoftssonline.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-account.micrrosoftsonline.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-account.outlook-s.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-accounts.gmail.sa.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-accounts.google-acc.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-accounts.google-caches.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-alienlol.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-app.appaffect.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-appaffect.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-applestunes.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-applevswin.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-asmc.best,DOMAIN,,http://401trg.pw/burning-umbrella/
-atliassian.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-awsprocduction.immigrantlol.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-awsstatics.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-css.google-statics.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-dnslog.mobi,DOMAIN,,http://401trg.pw/burning-umbrella/
-eggagent.info,DOMAIN,,http://401trg.pw/burning-umbrella/
-exoticlol.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-ftp.appaffect.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-ftp.eggagent.info,DOMAIN,,http://401trg.pw/burning-umbrella/
-ftp.ssrsec.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-ftp.winter.tokyo,DOMAIN,,http://401trg.pw/burning-umbrella/
-gmail.sa.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-google-acc.com,DOMAIN,,http://401trg.pw/burning-umbrella/
-haveip2015@gmail.com,EMAIL,,http://401trg.pw/burning-umbrella/
-iisexit@gmail.com,EMAIL,,http://401trg.pw/burning-umbrella/
-b676ec7b387de8795833b691a367d3d1,FILE MD5,,http://401trg.pw/burning-umbrella/
-e798cfe49e6afb61f58d79a53f06d785,FILE MD5,,http://401trg.pw/burning-umbrella/
-371acda8d719426b6a8867767260b9ce,FILE MD5,,http://401trg.pw/burning-umbrella/
-106.184.5.252,IP,,http://401trg.pw/burning-umbrella/
-106.185.31.128,IP,,http://401trg.pw/burning-umbrella/
-106.186.122.96,IP,,http://401trg.pw/burning-umbrella/
-13.115.93.210,IP,,http://401trg.pw/burning-umbrella/
-133.242.145.137,IP,,http://401trg.pw/burning-umbrella/
-139.162.106.19,IP,,http://401trg.pw/burning-umbrella/
-139.162.119.48,IP,,http://401trg.pw/burning-umbrella/
-139.162.17.161,IP,,http://401trg.pw/burning-umbrella/
-139.162.79.40,IP,,http://401trg.pw/burning-umbrella/
-139.162.95.39,IP,,http://401trg.pw/burning-umbrella/
-159.65.71.30,IP,,http://401trg.pw/burning-umbrella/
-172.104.101.131,IP,,http://401trg.pw/burning-umbrella/
-172.104.115.124,IP,,http://401trg.pw/burning-umbrella/
-198.199.78.207,IP,,http://401trg.pw/burning-umbrella/
-207.126.114.154,IP,,http://401trg.pw/burning-umbrella/
-45.32.18.187,IP,,http://401trg.pw/burning-umbrella/
-45.77.179.192,IP,,http://401trg.pw/burning-umbrella/
-52.199.202.13,IP,,http://401trg.pw/burning-umbrella/
-61.78.62.102,IP,,http://401trg.pw/burning-umbrella/
-61.78.62.21,IP,,http://401trg.pw/burning-umbrella/
-61.78.62.61,IP,,http://401trg.pw/burning-umbrella/
+512509787e4da7aaf71b89d25698a9e9d43501fd,CERT SHA1,,http://401trg.pw/burning-umbrella
+bd3abf19f065d102503e9186c152e529d3e33143,CERT SHA1,,http://401trg.pw/burning-umbrella
+df7826303b98004afd1102f597f6c7b067086a00,CERT SHA1,,http://401trg.pw/burning-umbrella
+1217cbb57fb26bd52d976f34571bd6c6514265e9,CERT SHA1,,http://401trg.pw/burning-umbrella
+e6a3b45b062d509b3382282d196efe97d5956ccb,CERT SHA1,,http://401trg.pw/burning-umbrella
+8e400380e376b9fb03612967940bb8e07175ab6a,CERT SHA1,,http://401trg.pw/burning-umbrella
+263babc25c177e0e6bd87c687bad8316240f971e,CERT SHA1,,http://401trg.pw/burning-umbrella
+58e1a9c1dae311fabdfa065955216a46eecb5816,CERT SHA1,,http://401trg.pw/burning-umbrella
+bae30b15dbb1544cf194d076b75b7bb9e3d6b760,CERT SHA1,,http://401trg.pw/burning-umbrella
+0e34141846e7423d37f20dc0ab06c9bbd843dc24,CERT SHA1,,http://401trg.pw/burning-umbrella
+23d57a493a5bfe1801b9d6e0894555242661a27b,CERT SHA1,,http://401trg.pw/burning-umbrella
+8e11362a487a744fd21682cd86ad053e8bd5b9ce,CERT SHA1,,http://401trg.pw/burning-umbrella
+_phishing-framework_session,COOKIE,,http://401trg.pw/burning-umbrella
+11116.intra.applestunes.com,DOMAIN,,http://401trg.pw/burning-umbrella
+24287.intra.applestunes.com,DOMAIN,,http://401trg.pw/burning-umbrella
+26707.intra.applestunes.com,DOMAIN,,http://401trg.pw/burning-umbrella
+33604.intra.applestunes.com,DOMAIN,,http://401trg.pw/burning-umbrella
+account.microsoftssonline.com,DOMAIN,,http://401trg.pw/burning-umbrella
+account.micrrosoftsonline.com,DOMAIN,,http://401trg.pw/burning-umbrella
+account.outlook-s.com,DOMAIN,,http://401trg.pw/burning-umbrella
+accounts.gmail.sa.com,DOMAIN,,http://401trg.pw/burning-umbrella
+accounts.google-acc.com,DOMAIN,,http://401trg.pw/burning-umbrella
+accounts.google-caches.com,DOMAIN,,http://401trg.pw/burning-umbrella
+alienlol.com,DOMAIN,,http://401trg.pw/burning-umbrella
+app.appaffect.com,DOMAIN,,http://401trg.pw/burning-umbrella
+appaffect.com,DOMAIN,,http://401trg.pw/burning-umbrella
+applestunes.com,DOMAIN,,http://401trg.pw/burning-umbrella
+applevswin.com,DOMAIN,,http://401trg.pw/burning-umbrella
+asmc.best,DOMAIN,,http://401trg.pw/burning-umbrella
+atliassian.com,DOMAIN,,http://401trg.pw/burning-umbrella
+awsprocduction.immigrantlol.com,DOMAIN,,http://401trg.pw/burning-umbrella
+awsstatics.com,DOMAIN,,http://401trg.pw/burning-umbrella
+css.google-statics.com,DOMAIN,,http://401trg.pw/burning-umbrella
+dnslog.mobi,DOMAIN,,http://401trg.pw/burning-umbrella
+eggagent.info,DOMAIN,,http://401trg.pw/burning-umbrella
+exoticlol.com,DOMAIN,,http://401trg.pw/burning-umbrella
+ftp.appaffect.com,DOMAIN,,http://401trg.pw/burning-umbrella
+ftp.eggagent.info,DOMAIN,,http://401trg.pw/burning-umbrella
+ftp.ssrsec.com,DOMAIN,,http://401trg.pw/burning-umbrella
+ftp.winter.tokyo,DOMAIN,,http://401trg.pw/burning-umbrella
+gmail.sa.com,DOMAIN,,http://401trg.pw/burning-umbrella
+google-acc.com,DOMAIN,,http://401trg.pw/burning-umbrella
+google-caches.com,DOMAIN,,http://401trg.pw/burning-umbrella
+google-searching.com,DOMAIN,,http://401trg.pw/burning-umbrella
+google-statics.com,DOMAIN,,http://401trg.pw/burning-umbrella
+googlecloud.center,DOMAIN,,http://401trg.pw/burning-umbrella
+gstatic.guide,DOMAIN,,http://401trg.pw/burning-umbrella
+helpdesk.access.ly,DOMAIN,,http://401trg.pw/burning-umbrella
+id.atliassian.com,DOMAIN,,http://401trg.pw/burning-umbrella
+immigrantlol.com,DOMAIN,,http://401trg.pw/burning-umbrella
+intra2015.awsstatics.com,DOMAIN,,http://401trg.pw/burning-umbrella
+job.yoyakuweb.technology,DOMAIN,,http://401trg.pw/burning-umbrella
+jobcenters.com,DOMAIN,,http://401trg.pw/burning-umbrella
+jobscenters.org,DOMAIN,,http://401trg.pw/burning-umbrella
+k0oo.co,DOMAIN,,http://401trg.pw/burning-umbrella
+login.gmail.sa.com,DOMAIN,,http://401trg.pw/burning-umbrella
+login.microsoftssonline.com,DOMAIN,,http://401trg.pw/burning-umbrella
+login.micrrosoftsonline.com,DOMAIN,,http://401trg.pw/burning-umbrella
+macos.exoticlol.com,DOMAIN,,http://401trg.pw/burning-umbrella
+mail.appaffect.com,DOMAIN,,http://401trg.pw/burning-umbrella
+mail.atliassian.com,DOMAIN,,http://401trg.pw/burning-umbrella
+mail.awsstatics.com,DOMAIN,,http://401trg.pw/burning-umbrella
+mail.google-acc.com,DOMAIN,,http://401trg.pw/burning-umbrella
+mail.google-caches.com,DOMAIN,,http://401trg.pw/burning-umbrella
+mail.microsoftssonline.com,DOMAIN,,http://401trg.pw/burning-umbrella
+mail.micrrosoftsonline.com,DOMAIN,,http://401trg.pw/burning-umbrella
+mail.mondoor.tv,DOMAIN,,http://401trg.pw/burning-umbrella
+mail.outlook-s.com,DOMAIN,,http://401trg.pw/burning-umbrella
+mail.ssrsec.com,DOMAIN,,http://401trg.pw/burning-umbrella
+mail.winter.tokyo,DOMAIN,,http://401trg.pw/burning-umbrella
+martianlol.com,DOMAIN,,http://401trg.pw/burning-umbrella
+microsoftsec.com,DOMAIN,,http://401trg.pw/burning-umbrella
+microsoftssonline.com,DOMAIN,,http://401trg.pw/burning-umbrella
+mondoor.tv,DOMAIN,,http://401trg.pw/burning-umbrella
+ns1.google-searching.com,DOMAIN,,http://401trg.pw/burning-umbrella
+ns2.googlecloud.center,DOMAIN,,http://401trg.pw/burning-umbrella
+outerlol.com,DOMAIN,,http://401trg.pw/burning-umbrella
+outlook-s.com,DOMAIN,,http://401trg.pw/burning-umbrella
+proappcs.com,DOMAIN,,http://401trg.pw/burning-umbrella
+rabbit.awsstatics.com,DOMAIN,,http://401trg.pw/burning-umbrella
+resume.immigrantlol.com,DOMAIN,,http://401trg.pw/burning-umbrella
+snow.winter.tokyo,DOMAIN,,http://401trg.pw/burning-umbrella
+sqlmapff.com,DOMAIN,,http://401trg.pw/burning-umbrella
+sshsocks.google-searching.com,DOMAIN,,http://401trg.pw/burning-umbrella
+ssl.gmail.sa.com,DOMAIN,,http://401trg.pw/burning-umbrella
+ssl.google-acc.com,DOMAIN,,http://401trg.pw/burning-umbrella
+ssl.google-caches.com,DOMAIN,,http://401trg.pw/burning-umbrella
+ssrsec.com,DOMAIN,,http://401trg.pw/burning-umbrella
+strangelol.com,DOMAIN,,http://401trg.pw/burning-umbrella
+summer.winter.tokyo,DOMAIN,,http://401trg.pw/burning-umbrella
+support.theonelogin.com,DOMAIN,,http://401trg.pw/burning-umbrella
+theonelogin.com,DOMAIN,,http://401trg.pw/burning-umbrella
+vmxesxi.google-searching.com,DOMAIN,,http://401trg.pw/burning-umbrella
+vps2java.securitytactics.com,DOMAIN,,http://401trg.pw/burning-umbrella
+winter.tokyo,DOMAIN,,http://401trg.pw/burning-umbrella
+www5363uj.sakura.ne.jp,DOMAIN,,http://401trg.pw/burning-umbrella
+yoyakuweb.technology,DOMAIN,,http://401trg.pw/burning-umbrella
+haveip2015@gmail.com,EMAIL,,http://401trg.pw/burning-umbrella
+iisexit@gmail.com,EMAIL,,http://401trg.pw/burning-umbrella
+b676ec7b387de8795833b691a367d3d1,FILE MD5,,http://401trg.pw/burning-umbrella
+e798cfe49e6afb61f58d79a53f06d785,FILE MD5,,http://401trg.pw/burning-umbrella
+371acda8d719426b6a8867767260b9ce,FILE MD5,,http://401trg.pw/burning-umbrella
+106.184.5.252,IP,,http://401trg.pw/burning-umbrella
+106.185.31.128,IP,,http://401trg.pw/burning-umbrella
+106.186.122.96,IP,,http://401trg.pw/burning-umbrella
+13.115.93.210,IP,,http://401trg.pw/burning-umbrella
+133.242.145.137,IP,,http://401trg.pw/burning-umbrella
+139.162.106.19,IP,,http://401trg.pw/burning-umbrella
+139.162.119.48,IP,,http://401trg.pw/burning-umbrella
+139.162.17.161,IP,,http://401trg.pw/burning-umbrella
+139.162.79.40,IP,,http://401trg.pw/burning-umbrella
+139.162.95.39,IP,,http://401trg.pw/burning-umbrella
+159.65.71.30,IP,,http://401trg.pw/burning-umbrella
+172.104.101.131,IP,,http://401trg.pw/burning-umbrella
+172.104.115.124,IP,,http://401trg.pw/burning-umbrella
+198.199.78.207,IP,,http://401trg.pw/burning-umbrella
+207.126.114.154,IP,,http://401trg.pw/burning-umbrella
+45.32.18.187,IP,,http://401trg.pw/burning-umbrella
+45.77.179.192,IP,,http://401trg.pw/burning-umbrella
+52.199.202.13,IP,,http://401trg.pw/burning-umbrella
+61.78.62.102,IP,,http://401trg.pw/burning-umbrella
+61.78.62.21,IP,,http://401trg.pw/burning-umbrella
+61.78.62.61,IP,,http://401trg.pw/burning-umbrella
