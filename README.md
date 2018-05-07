@@ -37,7 +37,7 @@ This directory contains PDFs of 401TRG long-form posts.
 
 # Unified Format
 All IOC files are in CSV and have the following format:
-`"Indicator","Type","Description","Reference"`
+`Indicator,Type,Description,Reference`
 
 There are several types of indicators:
 - `COOKIE`
