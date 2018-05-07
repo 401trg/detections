@@ -11,10 +11,10 @@ __license__ = "Apache License 2.0"
 __version__ = "1.0.0"
 __status__ = "Prototype"
 
-IOC_URL_LIST_URL = 'https://raw.githubusercontent.com/401trg/detections/master/ioc_urls.txt'
-IDS_RULES_URL_LIST_URL = 'https://raw.githubusercontent.com/401trg/detections/master/ids_rules_urls.txt'
-FILE_BL_URL = 'https://raw.githubusercontent.com/401trg/detections/master/blacklist/file_bl.csv'
-CERT_BL_URL = 'https://raw.githubusercontent.com/401trg/detections/master/blacklist/cert_bl.csv'
+IOC_URL_LIST_URL = 'https://raw.githubusercontent.com/401trg/detections/working/ioc_urls.txt'
+IDS_RULES_URL_LIST_URL = 'https://raw.githubusercontent.com/401trg/detections/working/ids_rules_urls.txt'
+FILE_BL_URL = 'https://raw.githubusercontent.com/401trg/detections/working/blacklist/file_bl.csv'
+CERT_BL_URL = 'https://raw.githubusercontent.com/401trg/detections/working/blacklist/cert_bl.csv'
 
 
 def get_urls_list(url_list_url):
@@ -89,21 +89,22 @@ if __name__ == "__main__":
     # IOC Example
     ioc_urls = get_urls_list(IOC_URL_LIST_URL)
     ioc_list = get_ioc_list(ioc_urls)
-    #for ioc in ioc_list:
-    #    print(ioc)
+    for ioc in ioc_list:
+        print(ioc)
 
     # IDS Example
     ids_rules_urls = get_urls_list(IDS_RULES_URL_LIST_URL)
     ids_rules_list = get_ids_rules_list(ids_rules_urls)
-    #for ids_rule in ids_rules_list:
-    #    print(ids_rule)
+    for ids_rule in ids_rules_list:
+        print(ids_rule)
 
     # FILE BL Example
     file_ioc_list = get_file_bl(FILE_BL_URL)
-    #for file_ioc in file_ioc_list:
-    #    print(file_ioc)
+    for file_ioc in file_ioc_list:
+        print(file_ioc)
 
     # CERT BL Example
     cert_ioc_list = get_cert_bl(CERT_BL_URL)
-    #for cert_ioc in cert_ioc_list:
-    #    print(cert_ioc)
+    for cert_ioc in cert_ioc_list:
+        print(cert_ioc)
+
