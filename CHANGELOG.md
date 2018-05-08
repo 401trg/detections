@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
   catch guys!
 
 ### Removed
-- IOC files to no longer include quotes around csv fields
+- IOC files no longer include quotes around csv fields
 
 ## [1.0.0]
 ### Added
