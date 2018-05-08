@@ -37,7 +37,7 @@ This directory contains PDFs of 401TRG long-form posts.
 
 # Unified Format
 All IOC files are in CSV and have the following format:
-`"Indicator","Type","Description","Reference"`
+`Indicator,Type,Description,Reference`
 
 There are several types of indicators:
 - `COOKIE`
@@ -52,8 +52,8 @@ There are several types of indicators:
 
 Example:
 ```
-"Indicator","Type","Description","Reference"
-"asdf.asdf.com","DOMAIN","This is a malicious domain","https://401trg.pw/this-post-does-not-exist"
+Indicator,Type,Description,Reference
+asdf.asdf.com,DOMAIN,This is a malicious domain,https://401trg.pw/this-post-does-not-exist
 ```
 
 The description field is left blank when there is no context to add to the indicator. The reference field will contain a link to the 401TRG post that disclosed the indicator. 
