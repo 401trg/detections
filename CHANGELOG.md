@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.0.1]
+### Added
+- Missing domains from Burning Umbrella Report for Area #1
+  (20180503_Burning_Umbrella_Area_1_indicators.csv), thanks for the
+  catch guys!
+
+### Removed
+- IOC files to no longer include quotes around csv fields
+
 ## [1.0.0]
 ### Added
 - Changelog to track post and changes to unified format
